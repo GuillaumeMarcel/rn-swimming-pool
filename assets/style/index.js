@@ -81,6 +81,7 @@ const styles = StyleSheet.create({
       marginTop: 10
     },
     menu: {
+      padding:50,
       zIndex: 1,
       position: "absolute",
       backgroundColor: '#fff',
@@ -89,8 +90,8 @@ const styles = StyleSheet.create({
     },
     button: {
       margin: 10,
-      width: "50%",
-      padding:5,
+      width: 200,
+      padding:10,
       backgroundColor: '#bababa',
       alignItems: 'center'
     }
