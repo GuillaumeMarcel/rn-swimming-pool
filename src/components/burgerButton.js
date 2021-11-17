@@ -46,12 +46,12 @@ export default function BurgerButton() {
                     <TouchableOpacity style={styles.button} onPress={() => navigation.push('Ex07')} ><Text>ex07</Text></TouchableOpacity>
                     <TouchableOpacity style={styles.button} onPress={() => navigation.push('Ex08')} ><Text>ex08</Text></TouchableOpacity>
                     <TouchableOpacity style={styles.button} onPress={() => navigation.push('Ex09')} ><Text>ex09</Text></TouchableOpacity>
-                    <TouchableOpacity style={styles.button} onPress={() => navigation.push('Ex010')}><Text>ex010</Text></TouchableOpacity>
-                    <TouchableOpacity style={styles.button} onPress={() => navigation.push('Ex011')}><Text>ex011</Text></TouchableOpacity>
-                    <TouchableOpacity style={styles.button} onPress={() => navigation.push('Ex012')}><Text>ex012</Text></TouchableOpacity>
-                    <TouchableOpacity style={styles.button} onPress={() => navigation.push('Ex013')}><Text>ex013</Text></TouchableOpacity>
-                    <TouchableOpacity style={styles.button} onPress={() => navigation.push('Ex014')}><Text>ex014</Text></TouchableOpacity>
-                    <TouchableOpacity style={styles.button} onPress={() => navigation.push('Ex015')}><Text>ex015</Text></TouchableOpacity>
+                    <TouchableOpacity style={styles.button} onPress={() => navigation.push('Ex10')} ><Text>ex10</Text></TouchableOpacity>
+                    <TouchableOpacity style={styles.button} onPress={() => navigation.push('Ex11')} ><Text>ex11</Text></TouchableOpacity>
+                    <TouchableOpacity style={styles.button} onPress={() => navigation.push('Ex12')} ><Text>ex12</Text></TouchableOpacity>
+                    <TouchableOpacity style={styles.button} onPress={() => navigation.push('Ex13')} ><Text>ex13</Text></TouchableOpacity>
+                    <TouchableOpacity style={styles.button} onPress={() => navigation.push('Ex14')} ><Text>ex14</Text></TouchableOpacity>
+                    <TouchableOpacity style={styles.button} onPress={() => navigation.push('Ex15')} ><Text>ex15</Text></TouchableOpacity>
                 </ScrollView>
             </SafeAreaView>
           </View>

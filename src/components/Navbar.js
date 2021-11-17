@@ -16,6 +16,7 @@ export default function Navbar() {
       <Text onPress={() => navigation.push('Ex07')}>ex07</Text>
       <Text onPress={() => navigation.push('Ex08')}>ex08</Text>
       <Text onPress={() => navigation.push('Ex09')}>ex09</Text>
+      <Text onPress={() => navigation.push('Ex10')}>ex10</Text>
     </View>
   );
 }
