@@ -9,6 +9,10 @@ import Ex03 from './src/pages/ex03';
 import Ex04 from './src/pages/ex04';
 import Ex05 from './src/pages/ex05';
 import Ex06 from './src/pages/ex06';
+import Ex07 from './src/pages/ex07';
+import Ex07_2 from './src/pages/ex07/SecondPage';
+import Ex08 from './src/pages/ex08';
+import Ex08_2 from './src/pages/ex08/SecondPage';
 
 const Stack = createNativeStackNavigator();
 
@@ -22,6 +26,10 @@ function App() {
         <Stack.Screen name="Ex04" component={Ex04} />
         <Stack.Screen name="Ex05" component={Ex05} />
         <Stack.Screen name="Ex06" component={Ex06} />
+        <Stack.Screen name="Ex07" component={Ex07} />
+        <Stack.Screen name="Ex072" component={Ex07_2} />
+        <Stack.Screen name="Ex08" component={Ex08} />
+        <Stack.Screen name="Ex082" component={Ex08_2} />
       </Stack.Navigator>
     </NavigationContainer>
   );

@@ -8,6 +8,8 @@ import Navbar from "../../components/Navbar";
 export default function Ex06() {
   const [destination, setDestination] = useState(null);
   const [destinations, setDestinations] = useState([]);
+  const [lineThrough, setLineThrough] = useState({});
+  
   return (
     <View style={styles.container}>
       <View style={{ ...styles.header, flexDirection: "row" }}>
@@ -26,9 +28,10 @@ export default function Ex06() {
           color="#bbb"
         />
       </View>
+      {/* textDecorationLine: 'line-through' */}
       <View style={styles.body}>
-        {destinations && destinations.map((row) => (
-          <Text style={{...styles.h1, textDecorationLine: "line-through"}}>{row}</Text>
+        {destinations && destinations.map((row, index) => (
+          <Text id={index} style={lineThrough[index] ? {...styles.h1, textDecorationLine: 'line-through'}: {...styles.h1}} onPress={()=>setLineThrough({...lineThrough, [index]: !lineThrough[index]})}>{row}</Text>
         ))}
       </View>
       <StatusBar style="auto" />
