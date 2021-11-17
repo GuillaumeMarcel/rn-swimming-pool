@@ -72,6 +72,28 @@ const styles = StyleSheet.create({
       padding: 10,
       backgroundColor:"#fff"
     },
+    burgercontainer: {
+      position: "absolute",
+      width:50,
+      height:50,
+      top: 0,
+      right: 0,
+      marginTop: 10
+    },
+    menu: {
+      zIndex: 1,
+      position: "absolute",
+      backgroundColor: '#fff',
+      width: '100%',
+      height: '100%'
+    },
+    button: {
+      margin: 10,
+      width: "50%",
+      padding:5,
+      backgroundColor: '#bababa',
+      alignItems: 'center'
+    }
   });
 
 export default styles

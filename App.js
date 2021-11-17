@@ -13,6 +13,7 @@ import Ex07 from './src/pages/ex07';
 import Ex07_2 from './src/pages/ex07/SecondPage';
 import Ex08 from './src/pages/ex08';
 import Ex08_2 from './src/pages/ex08/SecondPage';
+import Ex09 from './src/pages/ex09';
 
 const Stack = createNativeStackNavigator();
 
@@ -30,6 +31,7 @@ function App() {
         <Stack.Screen name="Ex072" component={Ex07_2} />
         <Stack.Screen name="Ex08" component={Ex08} />
         <Stack.Screen name="Ex082" component={Ex08_2} />
+        <Stack.Screen name="Ex09" component={Ex09} />
       </Stack.Navigator>
     </NavigationContainer>
   );
